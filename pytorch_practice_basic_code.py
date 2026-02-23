@@ -31,7 +31,7 @@ print(torch.__version__)
 
 PyTorch tensor are created using `torch.Tensor()`= [read through the PyTorch documentation Page](https://docs.pytorch.org/docs/stable/tensors.html)
 
-### **Scaler**
+### **Scalar**
 
 A scalar is a single number and in tensor-speak it's a zero dimension tensor.
 """
