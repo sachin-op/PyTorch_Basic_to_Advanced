@@ -272,9 +272,10 @@ tensor = torch.tensor([1, 2, 3])
 print("Original Tensor:\n", tensor)
 
 # 1. Addition
-add_tensor = tensor + 10                    # Using operator
+add_tensor = tensor + 10   
+print("\nTensor + 10 (operator):\n", add_tensor)# Using operator
+
 add_tensor_func = torch.add(tensor, 10)     # Using functional API
-print("\nTensor + 10 (operator):\n", add_tensor)
 print("Tensor + 10 (torch.add):\n", add_tensor_func)
 
 # 2. Subtraction
@@ -285,14 +286,16 @@ print("Tensor - 10 (torch.sub):\n", sub_tensor_func)
 
 # 3. Multiplication (Element-wise)
 mul_tensor = tensor * 10
-mul_tensor_func = torch.mul(tensor, 10)
 print("\nTensor * 10 (operator):\n", mul_tensor)
+
+mul_tensor_func = torch.mul(tensor, 10)
 print("Tensor * 10 (torch.mul):\n", mul_tensor_func)
 
 # 4. Division (Element-wise)
 div_tensor = tensor / 2
-div_tensor_func = torch.div(tensor, 2)
 print("\nTensor / 2 (operator):\n", div_tensor)
+
+div_tensor_func = torch.div(tensor, 2)
 print("Tensor / 2 (torch.div):\n", div_tensor_func)
 
 # In-place operations (modifies original tensor)
