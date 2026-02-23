@@ -17,15 +17,6 @@ torch.__version__
 
 """## 1.Data(preparing and loading)
 
-Data can be almost anything... in machine learning.
-
-* Excel speadsheet
-* Images
-* Videos (YouTube has lots of data...)
-* Audio like songs or podcasts
-* DNA
-* Text
-
 Machine learning is a game of two parts:
 1. Get data into a numberical representation.
 2. Build a model to learn patterns in that numerical representation.
