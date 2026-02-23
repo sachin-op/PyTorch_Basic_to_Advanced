@@ -8,12 +8,6 @@ Original file is located at
 
 # PyTorch Workflow
 
-
-Resource:
-
-* Book version of notebook:-https://www.learnpytorch.io/01_pytorch_workflow/
-"""
-
 import torch
 from torch import nn # nn contains all of PyTorch's building blocks for neural networks
 import matplotlib.pyplot as plt
