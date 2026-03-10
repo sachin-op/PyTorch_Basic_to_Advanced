@@ -135,7 +135,7 @@ Each model defines a custom `forward()` method.
 - Save the model with:
   ```python
   torch.save(model.state_dict(), "models/model_1.pth")
-# 3. pytorch_Neural_Network_classification_code.py
+# 3. Neural_Network_classification_PyTorch.py
 
 This file demonstrates how to build and train **classification models in PyTorch**. It covers both **binary classification** and **multi-class classification** using neural networks and explains how activation functions allow models to learn **non-linear decision boundaries**.
 
